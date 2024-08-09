@@ -1,0 +1,23 @@
+.w-50 {
+    width: 40% !important;
+}
+
+label {
+    text-shadow: 1px 1px 1px gray;
+}
+
+input, select, textarea {
+    box-shadow: 2px 2px 9px gray;  
+}
+
+/* Submit */
+.submit {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.submit:hover {
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+/* Submit */

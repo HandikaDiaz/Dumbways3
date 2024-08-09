@@ -1,0 +1,51 @@
+.form {
+    margin-top: 40px;
+}
+
+.w-50 {
+    width: 40% !important;
+}
+
+label {
+    text-shadow: 1px 1px 1px gray;
+}
+
+input, select, textarea {
+    box-shadow: 2px 2px 9px gray;  
+}
+
+/* Checkbox */
+.flex-check {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.flex-check .flex-box{
+    width: 50%;
+    display: flexbox;
+    margin-right: 37%;
+}
+
+.flex-check .flex-box label {
+    display: flex;
+    width: 50%;
+    padding-right: 50%;
+}
+
+.flex-check .flex-box label input{
+    box-shadow: none;
+}
+/* Checkbox */
+
+/* Submit */
+.submit {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.submit:hover {
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+/* Submit */
